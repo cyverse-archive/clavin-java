@@ -3,6 +3,7 @@ package org.iplantc.clavin.zookeeper;
 import com.netflix.curator.framework.CuratorFramework;
 import com.netflix.curator.framework.state.ConnectionState;
 import com.netflix.curator.framework.state.ConnectionStateListener;
+
 import org.apache.log4j.Logger;
 
 /**

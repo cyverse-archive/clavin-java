@@ -1,18 +1,21 @@
 package org.iplantc.clavin.zookeeper;
 
 import com.google.common.collect.ImmutableSet;
+
 import com.netflix.curator.framework.CuratorFramework;
 import com.netflix.curator.framework.CuratorFrameworkFactory;
 import com.netflix.curator.retry.RetryNTimes;
 import com.netflix.curator.test.TestingServer;
-import java.io.IOException;
-import java.util.Arrays;
-import java.util.Set;
+
+import static org.junit.Assert.assertEquals;
+
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
+import java.io.IOException;
+import java.util.Arrays;
+import java.util.Set;
 
 /**
  * Unit tests for {@link ZkClientImpl}.

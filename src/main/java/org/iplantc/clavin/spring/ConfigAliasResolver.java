@@ -1,10 +1,12 @@
 package org.iplantc.clavin.spring;
 
-import java.util.Map;
-import java.util.Properties;
-import javax.servlet.ServletContext;
 import org.springframework.web.context.WebApplicationContext;
 import org.springframework.web.context.support.WebApplicationContextUtils;
+
+import java.util.Map;
+import java.util.Properties;
+
+import javax.servlet.ServletContext;
 
 /**
  * Resolves aliased configurations names.

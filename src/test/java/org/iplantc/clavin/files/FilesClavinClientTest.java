@@ -1,10 +1,13 @@
 package org.iplantc.clavin.files;
 
-import java.util.Properties;
 import org.iplantc.clavin.ServiceNotPermittedException;
+
+import static org.junit.Assert.assertEquals;
+
 import org.junit.Before;
 import org.junit.Test;
-import static org.junit.Assert.*;
+
+import java.util.Properties;
 
 /**
  *

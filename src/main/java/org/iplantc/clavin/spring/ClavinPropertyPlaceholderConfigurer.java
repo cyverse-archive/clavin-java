@@ -1,15 +1,17 @@
 package org.iplantc.clavin.spring;
 
+import org.iplantc.clavin.ClavinClient;
+import org.iplantc.clavin.ClavinClientFactory;
+
+import org.springframework.beans.factory.config.PropertyPlaceholderConfigurer;
+import org.springframework.util.Assert;
+import org.springframework.util.CollectionUtils;
+
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Properties;
-import org.iplantc.clavin.ClavinClient;
-import org.iplantc.clavin.ClavinClientFactory;
-import org.springframework.beans.factory.config.PropertyPlaceholderConfigurer;
-import org.springframework.util.Assert;
-import org.springframework.util.CollectionUtils;
 
 /**
  * A property placeholder configurer that loads properties using a Clavin client.

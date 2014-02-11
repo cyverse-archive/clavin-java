@@ -1,14 +1,16 @@
 package org.iplantc.clavin;
 
-import com.google.common.io.Closeables;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.util.Properties;
 import org.iplantc.clavin.files.FilesClavinClient;
 import org.iplantc.clavin.zookeeper.ZkClient;
 import org.iplantc.clavin.zookeeper.ZkClientImpl;
 import org.iplantc.clavin.zookeeper.ZookeeperClavinClient;
+
+import com.google.common.io.Closeables;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.Properties;
 
 /**
  * A factory used to create {@link ClavinClient} instances.

@@ -1,14 +1,15 @@
 package org.iplantc.clavin.files;
 
-import java.io.IOException;
-import java.io.InputStream;
-import java.util.Properties;
 import org.iplantc.clavin.ClavinClient;
 import org.iplantc.clavin.ClavinException;
 import org.iplantc.clavin.PropertyLoadException;
 import org.iplantc.clavin.ServiceNotPermittedException;
 import org.iplantc.clavin.util.HostUtils;
 import org.iplantc.clavin.util.IpAddressNotFoundException;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.Properties;
 
 /**
  * A Clavin client implementation that retrieves configuration settings from properties files.

@@ -2,8 +2,10 @@ package org.iplantc.clavin;
 
 import org.iplantc.clavin.files.FilesClavinClient;
 import org.iplantc.clavin.zookeeper.ZookeeperClavinClient;
+
+import static org.junit.Assert.assertTrue;
+
 import org.junit.Test;
-import static org.junit.Assert.*;
 
 /**
  *

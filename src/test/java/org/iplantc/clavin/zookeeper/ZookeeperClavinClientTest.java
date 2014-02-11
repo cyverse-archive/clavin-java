@@ -1,11 +1,16 @@
 package org.iplantc.clavin.zookeeper;
 
-import java.util.Properties;
 import org.iplantc.clavin.ServiceNotPermittedException;
 import org.iplantc.clavin.util.HostUtils;
+
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertNull;
+
 import org.junit.Before;
 import org.junit.Test;
-import static org.junit.Assert.*;
+
+import java.util.Properties;
 
 /**
  * Unit tests for {@link ZookeeperClavinClient}.

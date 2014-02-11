@@ -1,12 +1,14 @@
 package org.iplantc.clavin.zookeeper;
 
-import com.google.common.base.Predicate;
-import com.google.common.collect.Iterables;
-import java.util.Properties;
 import org.iplantc.clavin.ClavinClient;
 import org.iplantc.clavin.ClavinException;
 import org.iplantc.clavin.ServiceNotPermittedException;
 import org.iplantc.clavin.util.HostUtils;
+
+import com.google.common.base.Predicate;
+import com.google.common.collect.Iterables;
+
+import java.util.Properties;
 
 /**
  * A Clavin client implementation that retrieves configuration settings from Zookeeper.
